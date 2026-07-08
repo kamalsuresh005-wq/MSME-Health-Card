@@ -12,7 +12,7 @@ from backend.scoring_engine import compute_full_assessment
 app = FastAPI(
     title="MSME Financial Health Card API",
     description="ULI/OCEN aligned alternative data-based credit evaluation engine.",
-    version="1.0.0"
+    version="0.9.0"
 )
 
 # CORS setup
